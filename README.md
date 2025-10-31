@@ -27,5 +27,5 @@ podman run `
 -e POSTGRES_USER=myuser `
 -e POSTGRES_PASSWORD=mypassword `
 -v posgresql-data:/var/lib/postgresql/data/ `
-postgres
+postgres:13
 ```
